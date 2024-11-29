@@ -1,0 +1,65 @@
+[
+    {
+        "id": 2,
+        "title": "Новое название",
+        "description": "Новое описание",
+        "category": "Новая категория",
+        "due_date": "2024-12-09",
+        "priority": "средний",
+        "status": "Выполнена"
+    },
+    {
+        "id": 3,
+        "title": "Завершаемая задача",
+        "description": "Описание",
+        "category": "Проект",
+        "due_date": "2024-12-01",
+        "priority": "высокий",
+        "status": "Не выполнена"
+    },
+    {
+        "id": 4,
+        "title": "Задача",
+        "description": "Описание",
+        "category": "Категория",
+        "due_date": "2024-12-04",
+        "priority": "средний",
+        "status": "Не выполнена"
+    },
+    {
+        "id": 5,
+        "title": "Задача 1",
+        "description": "Описание 1",
+        "category": "Проект",
+        "due_date": "2024-12-04",
+        "priority": "низкий",
+        "status": "Не выполнена"
+    },
+    {
+        "id": 6,
+        "title": "Задача 2",
+        "description": "Описание 2",
+        "category": "Проект",
+        "due_date": "2024-12-02",
+        "priority": "средний",
+        "status": "Не выполнена"
+    },
+    {
+        "id": 7,
+        "title": "Задача",
+        "description": "Описание",
+        "category": "Проект",
+        "due_date": "2024-12-04",
+        "priority": "низкий",
+        "status": "Не выполнена"
+    },
+    {
+        "id": 8,
+        "title": "Задача",
+        "description": "Описание",
+        "category": "Проект",
+        "due_date": "2024-12-04",
+        "priority": "низкий",
+        "status": "Не выполнена"
+    }
+]

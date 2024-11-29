@@ -1,6 +1,7 @@
 import pytest
-from Tasker.task_manager import TaskManager
+
 from Tasker.interface import Interface
+from Tasker.task_manager import TaskManager
 
 
 @pytest.fixture
@@ -36,7 +37,7 @@ def mock_print(monkeypatch):
 @pytest.fixture
 def app_interface():
     """Создание экземпляра приложения."""
-    manager = TaskManager("tests/data_base/test_interface.json")
+    manager = TaskManager("Tasker/tests/data_base/test_interface.json")
     interface = Interface(manager)
     return interface
 

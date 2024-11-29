@@ -1,20 +1,20 @@
 import json
 from datetime import datetime, timedelta
 from typing import List, Optional
-from Tasker.models import Task
+from models import Task
 import os
 
 
 class TaskManager:
-    def __init__(self, filename: str = "data_base/tasks.json"):
+    def __init__(self, filename: str = "Tasker/data_base/tasks.json"):
         # Инициализация менеджера задач
         self.filename = filename
         self.tasks: List[Task] = self.load_tasks()
 
     def load_tasks(self) -> List[Task]:
         # Создаем папку data_base, если ее нет
-        if not os.path.exists("data_base"):
-            os.makedirs("data_base")
+        if not os.path.exists("Tasker/data_base"):
+            os.makedirs("Tasker/data_base")
         try:
             with open(self.filename, "r") as file:
                 data = json.load(file)

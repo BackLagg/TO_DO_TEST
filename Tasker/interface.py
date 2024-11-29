@@ -1,5 +1,5 @@
-from Tasker.task_manager import TaskManager
-from Tasker.validator import Validator
+from task_manager import TaskManager
+from validator import Validator
 
 
 class Interface:
